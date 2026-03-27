@@ -1,0 +1,56 @@
+{
+  "app": {
+    "title": "Trình sửa ARB",
+    "description": "Tải tệp locale, sửa giá trị trực tiếp và xuất lại ARB đã cập nhật.",
+    "localeNoteTitle": "LƯU Ý BẮT BUỘC: TỆP ARB PHẢI CÓ @@locale",
+    "localeNoteDescription": "Mỗi tệp ARB cần khai báo trường @@locale (ví dụ: \"@@locale\": \"vi\") để hệ thống nhận diện đúng locale.",
+    "draftSavedAt": "Đã lưu bản nháp lúc {time}",
+    "draftCleared": "Đã làm sạch toàn bộ bản nháp.",
+    "dropTitle": "Thả tệp ARB vào bất kỳ vị trí nào",
+    "dropDescription": "Hỗ trợ nhiều tệp cùng lúc",
+    "copyright": "Bản quyền thuộc về hieubh. Liên hệ: hieubh130700@gmail.com"
+  },
+  "toolbar": {
+    "upload": "Tải tệp ARB",
+    "searchPlaceholder": "Tìm key...",
+    "filterLabel": "Chế độ lọc",
+    "filterAll": "Tất cả nhóm và key",
+    "filterMissing": "Chỉ thiếu bản dịch",
+    "filteredKeyCount": "Số key sau lọc: {count}",
+    "grouping": "Nhóm",
+    "expandAll": "Mở rộng tất cả",
+    "collapseAll": "Thu gọn tất cả",
+    "saveDraft": "Lưu bản nháp",
+    "clearDraft": "Làm sạch",
+    "downloadAll": "Tải tất cả",
+    "theme": "Giao diện",
+    "themeLight": "Sáng",
+    "themeDark": "Tối",
+    "themeSystem": "Hệ thống",
+    "language": "Ngôn ngữ",
+    "languageEn": "Tiếng Anh",
+    "languageVi": "Tiếng Việt"
+  },
+  "table": {
+    "key": "Key",
+    "missing": "Thiếu...",
+    "downloadLocale": "Tải {locale}",
+    "uploadHint": "Tải tệp ARB để bắt đầu chỉnh sửa bản dịch.",
+    "uploadHintSubtle": "Kéo thả tệp ARB hoặc dùng nút tải tệp trên thanh công cụ.",
+    "collapsed": "{group} (đã thu gọn)",
+    "metadataJson": "JSON metadata",
+    "metadataObjectError": "Metadata phải là đối tượng JSON.",
+    "metadataInvalidError": "Metadata JSON không hợp lệ.",
+    "translateFromVietnamese": "Dịch từ tiếng Việt",
+    "editMetadata": "Sửa metadata",
+    "addMetadata": "Thêm metadata",
+    "cloneMetadata": "Sao chép metadata từ {locale}",
+    "groups": "Nhóm",
+    "ungrouped": "Chưa nhóm",
+    "allKeys": "Tất cả key"
+  },
+  "errors": {
+    "importTitle": "Lỗi nhập tệp",
+    "translateFailed": "Yêu cầu dịch thất bại."
+  }
+}

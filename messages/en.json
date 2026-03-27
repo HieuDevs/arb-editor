@@ -1,0 +1,56 @@
+{
+  "app": {
+    "title": "ARB Editor",
+    "description": "Upload locale files, edit values inline, and export updated ARB output.",
+    "localeNoteTitle": "REQUIRED: ARB FILES MUST INCLUDE @@locale",
+    "localeNoteDescription": "Each ARB file must define @@locale (example: \"@@locale\": \"en\") so the editor can detect the locale correctly.",
+    "draftSavedAt": "Draft saved at {time}",
+    "draftCleared": "Draft has been cleared.",
+    "dropTitle": "Drop ARB files anywhere",
+    "dropDescription": "Multiple files are supported",
+    "copyright": "Copyright belongs to hieubh. Contact: hieubh130700@gmail.com"
+  },
+  "toolbar": {
+    "upload": "Upload ARB Files",
+    "searchPlaceholder": "Search keys...",
+    "filterLabel": "Filter mode",
+    "filterAll": "All groups and keys",
+    "filterMissing": "Missing localization only",
+    "filteredKeyCount": "Filtered keys: {count}",
+    "grouping": "Grouping",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "saveDraft": "Save draft",
+    "clearDraft": "Clear draft",
+    "downloadAll": "Download all",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "language": "Language",
+    "languageEn": "English",
+    "languageVi": "Vietnamese"
+  },
+  "table": {
+    "key": "Key",
+    "missing": "Missing...",
+    "downloadLocale": "Download {locale}",
+    "uploadHint": "Upload ARB files to start editing translations.",
+    "uploadHintSubtle": "Drag and drop ARB files or use the upload action from toolbar.",
+    "collapsed": "{group} (collapsed)",
+    "metadataJson": "Metadata JSON",
+    "metadataObjectError": "Metadata must be a JSON object.",
+    "metadataInvalidError": "Invalid metadata JSON.",
+    "translateFromVietnamese": "Translate from Vietnamese",
+    "editMetadata": "Edit metadata",
+    "addMetadata": "Add metadata",
+    "cloneMetadata": "Clone metadata from {locale}",
+    "groups": "Groups",
+    "ungrouped": "Ungrouped",
+    "allKeys": "All keys"
+  },
+  "errors": {
+    "importTitle": "Import errors",
+    "translateFailed": "Translate request failed."
+  }
+}
